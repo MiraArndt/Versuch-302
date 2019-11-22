@@ -1,12 +1,68 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
-\begin{figure}
-  \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
-\end{figure}
+Bei der Berechnung der jeweiligen Größen wurd
+
+\subsection{Wheatstonesche Brücke}
+
+Mit denen verwendeten Widerständen, die in Tabelle \ref{tab:1} aufgeführt wurden, 
+lassen sich durch Gleichung (VERWEIS AUF GLEICHUNG) folgende Werte für den 
+unbekannten Widerstandswert $R_{x}$ berechnen:
+(Fehlerhafter AUSDRUCK)
+
+\begin{align}
+R_{x,1} = 491,821\,\upOmega \nonumber \\
+R_{x,2} = 492,794\,\upOmega \nonumber \\
+R_{x,3} = 490,313\,\upOmega \nonumber 
+\end{align}.
 
 
-Siehe \autoref{fig:plot}!
+
+\noindent
+Über die zuvor aufgeführte Gleichungen (VERWEIS AUF GLEICHUNGEN) lässt sich der  
+Mittelwert 
+
+\begin{equation}
+\bar{R_{x}} = 491,643\,\upOmega \nonumber
+\end{equation}, 
+
+\noindent
+samt zugehörigem Fehler der Standartabweichung
+
+\begin{equation}
+\Delta\bar{R} = 0,722\, \upOmega \nonumber
+\end{equation}.
+
+\noindent
+Das zusammengefasste Ergebnis für den, mithilfe der Wheatstonesche Brückenspannung berechneten, Widerstandswert
+lautet, wie folgt:
+
+\begin{equation}
+R_{x} = (491,643 \pm 0,722)\,  \upOmega \nonumber
+\end{equation}.
+    
+\begin{table}
+\normalsize
+
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c c c}
+\toprule
+        Messung & $R_{2} \,/\,\upOmega$ & $R_{3} \,/\,\upOmega$ & $R_{4} \,/\,\upOmega$ \\
+        \midrule
+        1 & 332 & 597 & 403  \\
+        2 & 664 & 426 & 574  \\
+        3 & 1000 & 329 & 671 \\ 
+
+\bottomrule
+
+\end{tabular}
+
+\caption{Text}
+\label{tab:1}
+\end{table}
+
+
+
+
+
