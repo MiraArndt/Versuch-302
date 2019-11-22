@@ -38,6 +38,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuchsanleitung Brückenschaltungen}
+      \true{nocite}
     \endentry
     \entry{matplotlib}{article}{}
       \name{author}{1}{}{%
