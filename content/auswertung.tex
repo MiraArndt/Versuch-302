@@ -244,7 +244,7 @@ für die Induktivität $L_{18}$ der LR-Kombination.
 \sisetup{table-format=4.0}
 \begin{tabular}{c c c c c}
 \toprule
-        Messung & $R_{2} \,/\,\si{\ohm}$ & $R_{3} \,/\,\si{\ohm}$ & $R_{4} \,/\,\si{\ohm}$ & $C_{4} \,/\, \si{\henry}$ \\
+        Messung & $R_{2} \,/\,\si{\ohm}$ & $R_{3} \,/\,\si{\ohm}$ & $R_{4} \,/\,\si{\ohm}$ & $C_{4} \,/\, \si{\farad}$ \\
         \midrule
         1 & 332 & 208 & 332 & \num{750e-9} \\
         2 & 664 & 102 & 332 & \num{750e-9} \\
@@ -256,25 +256,58 @@ für die Induktivität $L_{18}$ der LR-Kombination.
 \end{table}
 
 
+
+
+
+
+
+
+
+
+
 \subsection{Frequenzabhängigkeit der Brückenspannung einer Wien-Robinsson-Brücke}
 
 
-Nach Umrechnung der Kreisfrequenz $\omega_{0}$ in die Frequenz $\nu_{0}$ mithilfe von 
+
+Um den Theoriewert für $\nu_{0}$ zu erhalten, muss zunächst $\omega_{0}$ mit 
+\begin{align}
+\omega_{0} = \frac{1}{R \cdot C} \nonumber
+\end{align}
+\\ 
+berechnet werden. Durch Einsetzen der Größen, die in der Tabelle (VERWEIS AUF TABELLE) 
+aufgeführt sind, ergibt sich
+\begin{align}
+\omega_{0} = \frac{1}{1000\, \si{\ohm} \cdot 420\, \si{\nano\farad}} = 2380.952\, \si{\hertz}
+\end{align}
+\\ 
+als Kreisfrequenz. Nach Umrechnung der Kreisfrequenz $\omega_{0}$ in die Frequenz $\nu_{0}$ mithilfe von 
 \begin{equation}
-\nu_{0} = frac{\omega_{0}}{2 \cdot np.pi()}
+\nu_{0} = \frac{\omega_{0}}{2 \cdot \pi}
 \end{equation}
-
-
-Nach der Umrechnung der Frequenz $\nu_{0}$ in die Kreisfrequenz $\omega_{0}$
+\\
+ergibt sich der Theoriewert 
 \begin{align}
-\omega_{0} = 2 \cdot np.pi() \cdot \nu_{0}
+\nu_{0} = \frac{2380.952\, \si{\hertz}}{2 \cdot \pi} = 378.94\, \si{\hertz}
 \end{align}
+für die Kreisfrequenz, bei der die minimale Brückenspannung $U_{Br}$ gemessen werden kann.
 
-Mittels Gleichung (VERWEIS AUF GLEICHUNG) lässt sich der theoretische Wert für $\nu_{0}$ ermitteln, welcher bei dem 
-vorliegenden Versuch den Wert 
-\begin{align}
-\nu_{0} = frac{1}{\omega_{0} \cdot }
-\end{align}
+
+
+
+\begin{table}
+\normalsize
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c c c}
+\toprule
+        $2R' \,/\,\si{\ohm}$ & $R' \,/\,\si{\ohm}$ & $R \,/\,\si{\ohm}$ & $C_{4} \,/\, \si{\farad}$ \\
+        \midrule
+        664 & 332 & 1000 & \num{420e-9} \\
+\bottomrule
+\end{tabular}
+\caption{Text5} 
+\label{tab:6}
+\end{table}
 
 
 \noindent
