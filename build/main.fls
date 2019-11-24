@@ -328,8 +328,12 @@ INPUT /home/nico/.local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
 INPUT build/main.toc
 INPUT build/main.toc
 OUTPUT build/main.toc
+INPUT ./content/Ziel.tex
+INPUT ./content/Ziel.tex
 INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
+INPUT ./content/Allgemein.png
+INPUT ./content/Allgemein.png
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/auswertung.tex
