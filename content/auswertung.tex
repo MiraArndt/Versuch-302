@@ -297,9 +297,6 @@ logarithmisch aufgefragen, wohingegen die y-Achse das Verhältnis von der Brück
 $U_{S}$ widergibt.
 
 
-
-
-
 \noindent
 \begin{figure}
   \centering
@@ -363,6 +360,35 @@ $U_{S}$ widergibt.
 \label{tab:7}
 \end{table}
 
+\subsection{Klirrfaktormessung}
+
+Bevor der Klirrfaktor $k$ ermittelt werden kann, muss zunächst die Amplitude $U_{2}$ der 2-ten Oberwelle
+mit der Gleichung
+\begin{align}
+U_{2} = \frac{U_{Br,eff}}{f(2)}
+\end{align}
+\\
+berechnet werden, wobei sich $f(2)$ ergibt, indem $\upOmega = 2$ in Gleichung (VERWEIS AUF GLEICHUNG) eingesetzt wird.
+Neben dem dort errechneten Wert
+\begin{align}
+f(2) =  \frac{1}{9} \cdot \frac{(\upOmega^2 - 1)^2}{(1 - \upOmega^2)^2 + 9 \cdot \upOmega^2}  = \frac{\sqrt{5}}{15} = \frac{1}{\sqrt{45}} \nonumber
+\end{align}
+\\
+wird der Effektivwert der Wechselspannung $U_{Br}$ bei $\nu = \nu_{0}$ benötigt (von der Speisespannung ist bereits der Effektivwert gegeben). Dieser lautet
+\begin{align}
+U_{Br,eff} = \frac{U_{Br}}{\sqrt{2}} = 9.6166\, \si{\milli\volt} \nonumber
+\end{align}.
+\\
+Folglich lautet der Wert für die Amplitude der 2-ten Oberwelle
+\begin{align}
+U_{2} = \frac{9.6166\, \si{\milli\volt}}{\sqrt{\frac{1}{45}}} = 0.0645\, \si{\volt} \nonumber
+\end{align}
+\\womit sich als Kliffaktor $k$ der Wert
+\begin{align}
+k = \frac{U_{2}}{U_{1}} = \frac{0.0645\, \si{\volt}}{2.5\, \si{\volt}} = 0.0258 \nonumber
+\end{align}
+\\ 
+ergibt. Die Amplitude der Grundwelle entspricht hierbei dem Effektivwert der Speisespannung.
 
 
 
