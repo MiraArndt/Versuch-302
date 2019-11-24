@@ -13,5 +13,6 @@
 \contentsline {subsection}{\numberline {4.1}Wheatstonesche Brücke}{4}{subsection.4.1}% 
 \contentsline {subsection}{\numberline {4.2}Kapazitätsmessbrücke}{5}{subsection.4.2}% 
 \contentsline {subsection}{\numberline {4.3}Induktivitätsmessbrücke}{6}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Maxwell-Brücke}{7}{subsection.4.4}% 
 \contentsline {section}{\numberline {5}Diskussion}{7}{section.5}% 
 \contentsline {section}{\nonumberline Literatur}{7}{section*.7}% 
