@@ -11,5 +11,9 @@
 \contentsline {section}{\numberline {3}Durchführung}{4}{section.3}% 
 \contentsline {section}{\numberline {4}Auswertung}{4}{section.4}% 
 \contentsline {subsection}{\numberline {4.1}Wheatstonesche Brücke}{4}{subsection.4.1}% 
-\contentsline {section}{\numberline {5}Diskussion}{5}{section.5}% 
-\contentsline {section}{\nonumberline Literatur}{5}{section*.4}% 
+\contentsline {subsection}{\numberline {4.2}Kapazitätsmessbrücke}{5}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Induktivitätsmessbrücke}{6}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Maxwell-Brücke}{7}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Frequenzabhängigkeit der Brückenspannung einer Wien-Robinsson-Brücke}{8}{subsection.4.5}% 
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}% 
+\contentsline {section}{\nonumberline Literatur}{10}{section*.9}% 
