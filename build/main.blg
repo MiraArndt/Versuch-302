@@ -1,22 +1,22 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [1] Config.pm:307> INFO - Logfile is 'build/main.blg'
-[48] biber:315> INFO - === Sun Nov 24, 2019, 17:35:25
-[74] Biber.pm:375> INFO - Reading 'build/main.bcf'
-[169] Biber.pm:902> INFO - Using all citekeys in bib section 0
-[194] Biber.pm:4196> INFO - Processing section 0
-[200] Utils.pm:75> INFO - Globbing data source 'lit.bib'
-[214] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
-[225] Utils.pm:75> INFO - Globbing data source 'programme.bib'
-[226] Utils.pm:91> INFO - Globbed data source 'programme.bib' to programme.bib
-[248] Biber.pm:4373> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[266] bibtex.pm:1462> INFO - LaTeX decoding ...
-[289] bibtex.pm:1281> INFO - Found BibTeX data source 'lit.bib'
-[324] Biber.pm:4373> INFO - Looking for bibtex format file 'programme.bib' for section 0
-[340] bibtex.pm:1462> INFO - LaTeX decoding ...
-[366] bibtex.pm:1281> INFO - Found BibTeX data source 'programme.bib'
-[422] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[423] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[424] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[425] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
-[443] bbl.pm:648> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[454] bbl.pm:751> INFO - Output to build/main.bbl
+[34] biber:315> INFO - === Sun Nov 24, 2019, 18:27:14
+[55] Biber.pm:375> INFO - Reading 'build/main.bcf'
+[141] Biber.pm:902> INFO - Using all citekeys in bib section 0
+[165] Biber.pm:4196> INFO - Processing section 0
+[168] Utils.pm:75> INFO - Globbing data source 'lit.bib'
+[169] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
+[169] Utils.pm:75> INFO - Globbing data source 'programme.bib'
+[170] Utils.pm:91> INFO - Globbed data source 'programme.bib' to programme.bib
+[183] Biber.pm:4373> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[187] bibtex.pm:1462> INFO - LaTeX decoding ...
+[193] bibtex.pm:1281> INFO - Found BibTeX data source 'lit.bib'
+[209] Biber.pm:4373> INFO - Looking for bibtex format file 'programme.bib' for section 0
+[213] bibtex.pm:1462> INFO - LaTeX decoding ...
+[221] bibtex.pm:1281> INFO - Found BibTeX data source 'programme.bib'
+[252] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[253] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[254] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[255] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[266] bbl.pm:648> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[274] bbl.pm:751> INFO - Output to build/main.bbl
