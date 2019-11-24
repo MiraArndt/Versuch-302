@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  22 NOV 2019 18:27
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  24 NOV 2019 15:15
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -38,7 +38,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
 Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multiscript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.190 seconds
+luaotfload | main : initialization completed in 0.188 seconds
 (./header.tex (/home/nico/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/home/nico/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -1645,61 +1645,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--18
 
  []
 
-<content/Allgemein.png, id=48, 365.11406pt x 346.29375pt>
+<content/Allgemein.png, id=50, 365.11406pt x 346.29375pt>
 File: content/Allgemein.png Graphic file (type png)
 <use content/Allgemein.png>
 Package luatex.def Info: content/Allgemein.png  used on input line 21.
 (luatex.def)             Requested size: 149.99857pt x 142.26378pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
 
  []
 
 [3<./content/Allgemein.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 42--46
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
 ) (./content/durchfuehrung.tex) (./content/auswertung.tex [4]
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.3'
 
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.3'
+LaTeX Warning: Reference `tab2' on page 5 undefined on input line 75.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.3'
+) (./content/diskussion.tex [5
+warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.5'
 
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.3'
-) (./content/diskussion.tex)
+warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.5'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.5'
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
- [5
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4.3'
-]
+ [6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
  (./build/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 8581779ADEB0B13AF13A2EFB58ADC139;7262.
+(rerunfilecheck)             Checksum: 4819B42EFCBCF85A9D7D51855CAB142E;8191.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 6C43D2B03AF2EB408642C5A3FEE82DF2;1132.
+(rerunfilecheck)             Checksum: 8453CE0B6AB6D612A93F0E4A3F72BAD6;1221.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 43635 strings out of 494291
+ 43786 strings out of 494291
  100000,1977958 words of node,token memory allocated
- 715 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 30 attribute, 80 glue_spec, 17 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:3,2:691,3:126,4:19,5:133,6:29,7:1521,8:47,9:162,10:7,11:177
- 46742 multiletter control sequences out of 65536+600000
- 104 fonts using 37614559 bytes
- 57i,9n,109p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (5 pages, 70491 bytes).
+ 745 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 40 attribute, 80 glue_spec, 22 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:3,2:1041,3:132,4:20,5:126,6:31,7:1542,8:47,9:304,10:8,11:177
+ 46840 multiletter control sequences out of 65536+600000
+ 150 fonts using 55254255 bytes
+ 57i,14n,109p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (6 pages, 75512 bytes).
 
-PDF statistics: 189 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 131072)
- 105 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 212 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 131072)
+ 113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
