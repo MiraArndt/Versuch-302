@@ -16,4 +16,4 @@
 \contentsline {subsection}{\numberline {4.4}Maxwell-Brücke}{7}{subsection.4.4}% 
 \contentsline {subsection}{\numberline {4.5}Frequenzabhängigkeit der Brückenspannung einer Wien-Robinsson-Brücke}{8}{subsection.4.5}% 
 \contentsline {section}{\numberline {5}Diskussion}{10}{section.5}% 
-\contentsline {section}{\nonumberline Literatur}{10}{section*.9}% 
+\contentsline {section}{\nonumberline Literatur}{10}{section*.10}% 
