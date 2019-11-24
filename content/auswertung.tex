@@ -244,7 +244,7 @@ für die Induktivität $L_{18}$ der LR-Kombination.
 \sisetup{table-format=4.0}
 \begin{tabular}{c c c c c}
 \toprule
-        Messung & $R_{2} \,/\,\si{\ohm}$ & $R_{3} \,/\,\si{\ohm}$ & $R_{4} \,/\,\si{\ohm}$ & $C_{4} \,/\, \si{\henry}$ \\
+        Messung & $R_{2} \,/\,\si{\ohm}$ & $R_{3} \,/\,\si{\ohm}$ & $R_{4} \,/\,\si{\ohm}$ & $C_{4} \,/\, \si{\farad}$ \\
         \midrule
         1 & 332 & 208 & 332 & \num{750e-9} \\
         2 & 664 & 102 & 332 & \num{750e-9} \\
@@ -256,8 +256,71 @@ für die Induktivität $L_{18}$ der LR-Kombination.
 \end{table}
 
 
+
+
+
+
+
+
+
+
+
 \subsection{Frequenzabhängigkeit der Brückenspannung einer Wien-Robinsson-Brücke}
 
+
+
+Um den Theoriewert für $\nu_{0}$ zu erhalten, muss zunächst $\omega_{0}$ mit 
+\begin{align}
+\omega_{0} = \frac{1}{R \cdot C} \nonumber
+\end{align}
+\\ 
+berechnet werden. Durch Einsetzen der Größen, die in der Tabelle (VERWEIS AUF TABELLE) 
+aufgeführt sind, ergibt sich
+\begin{align}
+\omega_{0} = \frac{1}{1000\, \si{\ohm} \cdot 420\, \si{\nano\farad}} = 2380.952\, \si{\hertz}
+\end{align}
+\\ 
+als Kreisfrequenz. Nach Umrechnung der Kreisfrequenz $\omega_{0}$ in die Frequenz $\nu_{0}$ mithilfe von 
+\begin{equation}
+\nu_{0} = \frac{\omega_{0}}{2 \cdot \pi}
+\end{equation}
+\\
+ergibt sich der Theoriewert 
+\begin{align}
+\nu_{0} = \frac{2380.952\, \si{\hertz}}{2 \cdot \pi} = 378.94\, \si{\hertz}
+\end{align}
+für die Kreisfrequenz, bei der die minimale Brückenspannung $U_{Br}$ gemessen werden kann.
+
+In Abbildung (VERWEIS AUF DIE ABBILDUNG) wurden die Messwerte, ebenso wie die mit Gleichung (VERWEIS AUF GLEICHUNG) 
+berechneten Werte für die Theoriekurve, aufgetragen. Die x-Achse ist das Verhältnis $\upOmega$ von $\nu$ zu $\nu_{0}$ 
+logarithmisch aufgefragen, wohingegen die y-Achse das Verhältnis von der Brückenspannung $U_{Br}$ zu der Speisespannung
+$U_{S}$ widergibt.
+
+
+\noindent
+\begin{figure}
+  \centering
+  \includegraphics{plot.pdf}
+   \caption{TITEL}
+   \label{fig:plot}
+\end{figure}
+
+\begin{table}
+\normalsize
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c c c}
+\toprule
+        $2R' \,/\,\si{\ohm}$ & $R' \,/\,\si{\ohm}$ & $R \,/\,\si{\ohm}$ & $C_{4} \,/\, \si{\farad}$ \\
+        \midrule
+        664 & 332 & 1000 & \num{420e-9} \\
+\bottomrule
+\end{tabular}
+\caption{Text5} 
+\label{tab:6}
+\end{table}
+
+\noindent
 \begin{table}
 \normalsize
 \centering
@@ -294,9 +357,38 @@ für die Induktivität $L_{18}$ der LR-Kombination.
 \bottomrule
 \end{tabular}
 \caption{Text5} 
-\label{tab:5}
+\label{tab:7}
 \end{table}
 
+\subsection{Klirrfaktormessung}
+
+Bevor der Klirrfaktor $k$ ermittelt werden kann, muss zunächst die Amplitude $U_{2}$ der 2-ten Oberwelle
+mit der Gleichung
+\begin{align}
+U_{2} = \frac{U_{Br,eff}}{f(2)}
+\end{align}
+\\
+berechnet werden, wobei sich $f(2)$ ergibt, indem $\upOmega = 2$ in Gleichung (VERWEIS AUF GLEICHUNG) eingesetzt wird.
+Neben dem dort errechneten Wert
+\begin{align}
+f(2) =  \frac{1}{9} \cdot \frac{(\upOmega^2 - 1)^2}{(1 - \upOmega^2)^2 + 9 \cdot \upOmega^2}  = \frac{\sqrt{5}}{15} = \frac{1}{\sqrt{45}} \nonumber
+\end{align}
+\\
+wird der Effektivwert der Wechselspannung $U_{Br}$ bei $\nu = \nu_{0}$ benötigt (von der Speisespannung ist bereits der Effektivwert gegeben). Dieser lautet
+\begin{align}
+U_{Br,eff} = \frac{U_{Br}}{\sqrt{2}} = 9.6166\, \si{\milli\volt} \nonumber
+\end{align}.
+\\
+Folglich lautet der Wert für die Amplitude der 2-ten Oberwelle
+\begin{align}
+U_{2} = \frac{9.6166\, \si{\milli\volt}}{\sqrt{\frac{1}{45}}} = 0.0645\, \si{\volt} \nonumber
+\end{align}
+\\womit sich als Kliffaktor $k$ der Wert
+\begin{align}
+k = \frac{U_{2}}{U_{1}} = \frac{0.0645\, \si{\volt}}{2.5\, \si{\volt}} = 0.0258 \nonumber
+\end{align}
+\\ 
+ergibt. Die Amplitude der Grundwelle entspricht hierbei dem Effektivwert der Speisespannung.
 
 
 
