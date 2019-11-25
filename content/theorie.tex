@@ -66,6 +66,7 @@ Widerstände Ohmsche Widerstände wobei $R_x$ unbekannt
 ist und sich mit Gleichung \ref{eq:a} durch
 \begin{equation}
     R_x=R_2\frac{R_3}{R_4}
+    \label{eq:1}
 \end{equation}
 
 \noindent bestimmen lässt. $R_3$ und $R_4$ sind dabei
@@ -90,10 +91,12 @@ Aus Gleichung \ref{eq:a} ergeben dich die zu ermittelnden
 Größen als
 \begin{equation}
     R_X=R_2\frac{R_3}{R_4}
+    \label{eq:3}
 \end{equation}
 \noindent und
 \begin{equation}
     C_x=C_2\frac{R_4}{R_3}.
+    \label{eq:4}
 \end{equation}
 
 
@@ -116,10 +119,12 @@ bei \ref{sec:Kap} lassen sich $R_x$ und $L_x$ mit
 Glechung \ref{eq:a} durch
 \begin{equation}
     R_x=R_2\frac{R_3}{R_4}
+    \label{eq:6}
 \end{equation}
 \noindent und
 \begin{equation}
     L_x=L_2\frac{R_3}{R_4}
+    \label{eq:7}
 \end{equation}
 \noindent berechnen.
 
@@ -143,10 +148,12 @@ Größenordnung besitzen. $L_x$ und $R_x$ können
 mit Gleichung \ref{eq:a} durch
 \begin{equation}
     R_x=R_2\frac{R_3}{R_4}
+    \label{eq:12}
 \end{equation}
 \noindent und
 \begin{equation}
     L_x=R_2R_3C_4
+    \label{eq:13}
 \end{equation}
 \noindent berechnen.
 
@@ -170,6 +177,7 @@ Aus Gleichung \ref{eq:b} folgt
 \end{equation}
 \begin{equation}
     \iff \Big|\frac{U_{Br}}{U_S}\Bigr| ^2=\frac{1}{9}\frac{(\Omega ^2 -1)^2}{(1-\Omega ^2)^2+9\Omega ^2} \qquad \text{mit} \qquad \Omega := \frac{\omega}{\omega_0}.
+    \label{eq:10}
 \end{equation}
 
 \noindent Mit Hilfe der Wien-Robinson-Brücke lässt
@@ -179,6 +187,7 @@ Oberwellengehalts im Vergleich zur Grundwelle und berechnet
 sich durch die Formel
 \begin{equation}
     k:=\frac{\sqrt{U_2^2+U_3^2+\cdot \cdot \cdot }}{U1},
+    \label{eq:11}
 \end{equation}
 \noindent wobei $U_1$ die Amplitude der Grundwelle
 ist und $U_n$ Die Amplituden der Oberwellen.
@@ -186,8 +195,10 @@ Mit der vereinfachten Annahme, dass die Summe der
 Oberwellen nur aus der zweiten Oberwelle besteht wird
 dies zu
 \begin{equation}
-    k=\frac{U_2}{U_1}
+    k=\frac{U_2}{U_1} \qquad \text{mit} \qquad U_2=\frac{U_{Br}}{f(2)},
+    \label{eq:8}
 \end{equation}
+\noindent wobei $f$ Gleichung \ref{eq:11} entspricht.
 
 
 
@@ -196,12 +207,14 @@ Bei der Auswertung werden die Mittelwerte
 der errechneten Größen durch die Formel
 \begin{equation}
     \bar{x}=\frac{1}{N}\sum_{i=1}^N x_i
+    \label{eq:2}
 \end{equation}
 berechnet. Der dazu gehörige Standardfehler
 des Mittelwerts berechnet sich durch
 
  \begin{equation}
      \Delta\bar{x}=\sqrt{\frac{1}{N(N-1)}\sum_{i=1}^N (x_i-\bar{x})}.
+     \label{eq:5}
  \end{equation}
 \noindent Der Prozentuale Fehler $x_p$ eines
 Messwertes $x_M$ zum Theoriewert $x_T$ lässt sich durch
