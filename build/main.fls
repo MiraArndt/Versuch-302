@@ -350,6 +350,7 @@ INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
+<<<<<<< HEAD
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
@@ -362,6 +363,20 @@ INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbol
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/mira/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+=======
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+>>>>>>> f2155e5a0b05928dc6e82ef9899f15625da777de
 INPUT ./plot.pdf
 INPUT ./plot.pdf
 INPUT ./content/diskussion.tex
