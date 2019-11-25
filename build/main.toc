@@ -15,6 +15,6 @@
 \contentsline {subsection}{\numberline {4.3}Induktivitätsmessbrücke}{10}{subsection.4.3}% 
 \contentsline {subsection}{\numberline {4.4}Maxwell-Brücke}{10}{subsection.4.4}% 
 \contentsline {subsection}{\numberline {4.5}Frequenzabhängigkeit der Brückenspannung einer Wien-Robinsson-Brücke}{11}{subsection.4.5}% 
-\contentsline {subsection}{\numberline {4.6}Klirrfaktormessung}{12}{subsection.4.6}% 
+\contentsline {subsection}{\numberline {4.6}Klirrfaktormessung}{15}{subsection.4.6}% 
 \contentsline {section}{\numberline {5}Diskussion}{15}{section.5}% 
 \contentsline {section}{\nonumberline Literatur}{15}{section*.16}% 
