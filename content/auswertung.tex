@@ -23,8 +23,8 @@ R_{11,3} = 490,313\,\si{\ohm} \nonumber
 Mittelwert 
 
 \begin{equation}
-\bar{R_{11}} = 491,643\,\si{\ohm} \nonumber
-\end{equation}, 
+\bar{R_{11}} = 491,643\,\si{\ohm}, \nonumber
+\end{equation}
 
 \noindent
 samt zugehörigem Fehler der Standartabweichung
@@ -276,7 +276,7 @@ logarithmisch aufgetragen, wohingegen die y-Achse das Verhältnis von der Brück
 $U_{S}$ widergibt.
 Es fällt auf, dass der prozentuale Fehler des gemessenen Wertes für $\nu_{0}$ mit 
 \begin{align}
-\upDelta_{p} \nu = -0.2789\, \% \nonumber
+\upDelta_{p} \nu = 0.2789\, \% \nonumber
 \end{align}
 \\
 gering ausfällt. Weiterhin ist zu beobachten, dass die Messwerte um das Frequenzverhältnis $\Omega = 1$
@@ -352,30 +352,31 @@ dieses Verhalten für Frequenzverhältnisse $\Omega > 0$ nicht beobachten.
 
 \subsection{Klirrfaktormessung}
 
-Bevor der Klirrfaktor $k$ ermittelt werden kann, muss zunächst die Amplitude $U_{2}$ der 2-ten Oberwelle
-mit der Gleichung
-\begin{align}
-U_{2} = \frac{U_{Br,eff}}{f(2)}
-\end{align}
-\\
-berechnet werden, wobei sich $f(2)$ ergibt, indem $\upOmega = 2$ in Gleichung (VERWEIS AUF GLEICHUNG) eingesetzt wird.
-Neben dem dort errechneten Wert
+Zuletzt soll eine Näherung für den Klirrfaktor $k$ mit Gleichung (VERWEIS AUF GLEICHUNG) ermitteln werden, wobei 
+davon ausgegangen werden soll, dass $U_{i} = 0\, \si{\volt}$ mit $i\,>\,2$ gilt.  
+
+Dafür soll zunächst das Spannungsverhältnis $\lvert{\frac{U_{Br}}{U_S}}\rvert$ für $\Omega = 2$ ermittelt werden. Dieses ergibt sich 
+durch Verwendung von Gleichung (VERWEIS AUF GLEICHUNG) und liefert 
 \begin{align}
 f(2) =  \frac{1}{9} \cdot \frac{(\Omega^2 - 1)^2}{(1 - \Omega^2)^2 + 9 \cdot \Omega^2}  = \frac{\sqrt{5}}{15} = \frac{1}{\sqrt{45}} \nonumber
 \end{align}
 \\
-wird der Effektivwert der Wechselspannung $U_{Br}$ bei $\nu = \nu_{0}$ benötigt (von der Speisespannung ist bereits der Effektivwert gegeben). Dieser lautet
-\begin{align}
-U_{Br,eff} = \frac{U_{Br}}{\sqrt{2}} = 9.6166\, \si{\milli\volt} \nonumber
-\end{align}.
-\\
-Folglich lautet der Wert für die Amplitude der 2-ten Oberwelle
+als Wert. Bevor der Klirrfaktor $k$ nun ermittelt werden kann, müssen zunächst die Amplituden $U_{1}$ und $U_{2}$ berechnet werden.
+Die Amplitude der Grundwelle $U_{1}$ entspricht der Speisespannung $U_{S}$, von der bereits der Effektivwert gegeben ist, wohingegen die Amplitude $U_{2}$ der Spannung der
+2-ten Oberwelle entspricht und für den vorliegenden Versuch mit Gleichung (VERWEIS AUF GLEICHUNG)
 \begin{align}
 U_{2} = \frac{9.6166\, \si{\milli\volt}}{\sqrt{\frac{1}{45}}} = 0.0645\, \si{\volt} \nonumber
 \end{align}
-\\womit sich als Kliffaktor $k$ der Wert
+\\
+lautet. Der Effektivwert der Spannung wird mit 
 \begin{align}
-k = \frac{U_{2}}{U_{1}} = \frac{0.0645\, \si{\volt}}{2.5\, \si{\volt}} = 0.0258 \nonumber
+U_{2,eff} = \frac{U_{2}}{\sqrt{2}} = 0.0456\, \si{\volt} \nonumber
+\end{align}
+\\
+errechnet.
+Mit diesen Werten und Gleichung (VERWEIS AUF GLEICHUNG) ergibt sich 
+\begin{align}
+k = \frac{U_{2}}{U_{1}} = \frac{0.0456\, \si{\volt}}{2.5\, \si{\volt}} = 0.0182 \nonumber
 \end{align}
 \\ 
-ergibt. Die Amplitude der Grundwelle entspricht hierbei dem Effektivwert der Speisespannung.
+für den gesuchten Klirrfaktor $k$.

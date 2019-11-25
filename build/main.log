@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  25 NOV 2019 16:56
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  25 NOV 2019 18:17
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -38,7 +38,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
 Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multiscript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.598 seconds
+luaotfload | main : initialization completed in 0.553 seconds
 (./header.tex (/home/nico/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/home/nico/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -1735,19 +1735,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43876 strings out of 494291
+ 43875 strings out of 494291
  100000,1977958 words of node,token memory allocated
  883 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 86 attribute, 80 glue_spec, 45 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:3,2:1775,3:160,4:24,5:188,6:39,7:3528,8:60,9:498,10:8,11:193
+   avail lists: 1:3,2:1750,3:160,4:24,5:194,6:39,7:3750,8:60,9:483,10:8,11:214
  46877 multiletter control sequences out of 65536+600000
- 150 fonts using 55254719 bytes
+ 150 fonts using 55254487 bytes
  57i,15n,109p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (15 pages, 243914 bytes).
+Output written on main.pdf (15 pages, 245027 bytes).
 
-PDF statistics: 357 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 131072)
+PDF statistics: 356 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 131072)
  145 words of extra memory for PDF output out of 10000 (max. 100000000)
 
