@@ -7,8 +7,16 @@ Quotient1 = [1320,1200,880,640,460,268,128,94.4,70.4,44,21.6,13.6,30,52,78,96,11
 
 
 for x in range(24):
+<<<<<<< HEAD
     #Quotient1[x] = (UBr[x])/(2500)
     Quotient1[x] = (UBr[x])/(2500*np.sqrt(2))
+||||||| merged common ancestors
+    Quotient1[x] = (UBr[x])/(2500)
+    #Quotient1[x] = (UBr[x])/(2500*np.sqrt(2))
+=======
+    Quotient1[x] = (UBr[x])/(2500*np.sqrt(2))
+    #Quotient1[x] = (UBr[x])/(2500)
+>>>>>>> 1480af6a046b5a2957c308061fe5043537396423
     print(Quotient1[x])
 
 v = [30,80,130,180,230,280,330,340,350,360,370,380,390,400,410,420,430,480,530,580,630,680,730,780]
