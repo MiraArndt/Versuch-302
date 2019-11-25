@@ -166,12 +166,28 @@ also bei bekannten elektrischen Bauteilen
 nur von der Frequenz $v$ der Speisespannung ab.
 Aus Gleichung \ref{eq:b} folgt
 \begin{equation}
-    U_{Br}=\frac{\omega^2R^2C^2-1}{3(1-\omega^2R^2C^2)+9i\omega RC}U_S
+    U_{Br}=\frac{\omega^2R^2C^2-1}{3(1-\omega^2R^2C^2)+9\text{i}\omega RC}U_S
 \end{equation}
 \begin{equation}
     \iff \Big|\frac{U_{Br}}{U_S}\Bigr| ^2=\frac{1}{9}\frac{(\Omega ^2 -1)^2}{(1-\Omega ^2)^2+9\Omega ^2} \qquad \text{mit} \qquad \Omega := \frac{\omega}{\omega_0}.
 \end{equation}
 
+\noindent Mit Hilfe der Wien-Robinson-Brücke lässt
+sich außerdem der Klirrfaktor $k$ des verwendeten Generators
+bestimmen. Der Klirrfaktor ist ein Maß des
+Oberwellengehalts im Vergleich zur Grundwelle und berechnet
+sich durch die Formel
+\begin{equation}
+    k:=\frac{\sqrt{U_2^2+U_3^2+\cdot \cdot \cdot }}{U1},
+\end{equation}
+\noindent wobei $U_1$ die Amplitude der Grundwelle
+ist und $U_n$ Die Amplituden der Oberwellen.
+Mit der vereinfachten Annahme, dass die Summe der
+Oberwellen nur aus der zweiten Oberwelle besteht wird
+dies zu
+\begin{equation}
+    k=\frac{U_2}{U_1}
+\end{equation}
 
 
 
@@ -181,10 +197,16 @@ der errechneten Größen durch die Formel
 \begin{equation}
     \bar{x}=\frac{1}{N}\sum_{i=1}^N x_i
 \end{equation}
-berechnet.\\ 
-\\
-Der Standardfehler des Mittelwerts beerechnet sich durch
+berechnet. Der dazu gehörige Standardfehler
+des Mittelwerts berechnet sich durch
 
  \begin{equation}
      \Delta\bar{x}=\sqrt{\frac{1}{N(N-1)}\sum_{i=1}^N (x_i-\bar{x})}.
  \end{equation}
+\noindent Der Prozentuale Fehler $x_p$ eines
+Messwertes $x_M$ zum Theoriewert $x_T$ lässt sich durch
+die Formel
+\begin{equation}
+    x_p=100 \cdot \Bigl(\frac{x_T-x_M}{x_T}\Bigr)
+\end{equation}
+\noindent ermitteln.
