@@ -7,6 +7,7 @@ die Berechnung der Mittelwerte, sowie die damit verbundenen Fehler der Standarta
 
 
 \subsection{Wheatstonesche Brücke}
+\label{WheatstonescheBrücke}
 
 Mit den verwendeten Widerständen, die in Tabelle \ref{tab:1} aufgeführt wurden, 
 lassen sich durch Gleichung \ref{eq:1} folgende Werte für den 
@@ -61,11 +62,18 @@ R_{11} = (491,643 \pm 0,722)\,  \si{\ohm}. \nonumber
 
 \end{tabular}
 
-\caption{Text}
+\caption{Aufgenommene Werte zur Bestimmung von $R_{11}$}
 \label{tab:1}
 \end{table}
 
+
+
+
+
+
+
 \subsection{Kapazitätsmessbrücke}
+\label{Kapazitätsmessbrücke}
 
 Unter Verwendung der oben ausgeführten Gleichungen \ref{eq:3} und \ref{eq:4}, sowie der aufgenommenen
 Messwerte aus Tabelle \ref{tab:2}, können die Werte 
@@ -128,7 +136,7 @@ und $C_{3,1}$ angegeben werden, nicht aber Mittelwerte beziehungsweise Fehler de
 
 \end{tabular}
 
-\caption{Text2 WERT 15}
+\caption{Aufgenommene Werte zur Bestimmung von $R_{15}$ und $C_{15}$}
 \label{tab:2}
 \end{table}
 
@@ -149,11 +157,27 @@ und $C_{3,1}$ angegeben werden, nicht aber Mittelwerte beziehungsweise Fehler de
 
 \end{tabular}
 
-\caption{Text2 WERT 3 (C) und WERT 10 (R)} 
+\caption{Aufgenommene Werte zur Bestimmung von $R_{10}$ und $C_{3}$ } 
 \label{tab:3}
 \end{table}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsection{Induktivitätsmessbrücke}
+\label{Induktivitätsmessbrücke}
 
 Für diesen Teil des Versuchs können die Werte aus Tabelle \ref{tab:4} und die Gleichungen
 \ref{eq:6} und \ref{eq:7} verwendet werden, sodass die Ergebnisse der Einzelmessungen die Werte
@@ -194,11 +218,31 @@ angeben.
         3 & 664 & 761 & 239 & \num{14.6e-3} \\
 \bottomrule
 \end{tabular}
-\caption{Text4} 
+\caption{Aufgenommene Werte zur Bestimmung von $R_{18}$ und $L_{18}$} 
 \label{tab:4}
 \end{table}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsection{Maxwell-Brücke}
+\label{MaxwellBrücke}
 
 Um den Verlustwiderstand $R_{18}$, sowie die Induktivität $L_{18}$, der LR-Kombination ein weiteres Mal zu errechnen, sollen
 nun die Werte aus Tabelle \ref{tab:5} und die beiden Gleichungen \ref{eq:12} und \ref{eq:13} verwendet werden. Somit
@@ -242,7 +286,7 @@ für die Induktivität $L_{18}$ der LR-Kombination.
         3 & 1000 & 68 & 32 & \num{750e-9} \\
 \bottomrule
 \end{tabular}
-\caption{Text5} 
+\caption{Aufgenommene Werte zur Bestimmung von $R_{18}$ und $L_{18}$} 
 \label{tab:5}
 \end{table}
 
@@ -256,17 +300,17 @@ Um den Theoriewert für $\nu_{0}$ zu erhalten, muss zunächst $\omega_{0}$ mit
 berechnet werden. Durch Einsetzen der Größen, die in der Tabelle \ref{tab:6} 
 aufgeführt sind, ergibt sich
 \begin{align}
-\omega_{0} = \frac{1}{1000\, \si{\ohm} \cdot 420\, \si{\nano\farad}} = 2380.952\, \si{\hertz}
+\omega_{0} = \frac{1}{1000\, \si{\ohm} \cdot 420\, \si{\nano\farad}} = 2380.952\, \si{\hertz} \nonumber
 \end{align}
 \\ 
 als Kreisfrequenz. Nach Umrechnung der Kreisfrequenz $\omega_{0}$ in die Frequenz $\nu_{0}$ mithilfe von 
 \begin{equation}
-\nu_{0} = \frac{\omega_{0}}{2 \cdot \pi}
+\nu_{0} = \frac{\omega_{0}}{2 \cdot \pi} \nonumber
 \end{equation}
 \\
 ergibt sich der Theoriewert 
 \begin{align}
-\nu_{0} = \frac{2380.952\, \si{\hertz}}{2 \cdot \pi} = 378.94\, \si{\hertz}
+\nu_{0} = \frac{2380.952\, \si{\hertz}}{2 \cdot \pi} = 378.94\, \si{\hertz} \nonumber
 \end{align}
 für die Kreisfrequenz, bei der die minimale Brückenspannung $U_{Br}$ gemessen werden kann.
 
@@ -289,7 +333,7 @@ dieses Verhalten für Frequenzverhältnisse $\Omega > 0$ nicht beobachten.
 \begin{figure}[h]
   \centering
   \includegraphics{plot.pdf}
-   \caption{TITEL}
+   \caption{Darstellung der aufgenommenen Messwerte und der Theoriekurve}
    \label{fig:plot}
 \end{figure}
 
@@ -305,7 +349,7 @@ dieses Verhalten für Frequenzverhältnisse $\Omega > 0$ nicht beobachten.
         664 & 332 & 1000 & \num{420e-9} \\
 \bottomrule
 \end{tabular}
-\caption{Text5} 
+\caption{Aufgenommene Messwerte zur Bestimmung von $\nu_{0}$} 
 \label{tab:6}
 \end{table}
 
@@ -345,7 +389,7 @@ dieses Verhalten für Frequenzverhältnisse $\Omega > 0$ nicht beobachten.
         
 \bottomrule
 \end{tabular}
-\caption{Text5} 
+\caption{Aufgenommene Messwerte zur Bestimmung des Klirrfaktors $k$} 
 \label{tab:7}
 \end{table}
 
