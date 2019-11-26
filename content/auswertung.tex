@@ -28,7 +28,7 @@ Mittelwert
 \end{equation}
 
 \noindent
-samt zugehörigem Fehler der Standartabweichung
+samt zugehöriger Standardabweichung
 
 \begin{equation}
 \Delta R_{11} = 0,722\, \si{\ohm} \nonumber
@@ -100,7 +100,7 @@ und
 C_{15} = (560.806 \pm 67.181)\, \si{\nano\farad} \nonumber 
 \end{align}
 \\
-als Mittelwert samt Fehler der Standartabweichung für den ohmschen Widerstand beziehungsweise der
+als Mittelwert samt Standardabweichung für den ohmschen Widerstand beziehungsweise der
 Kapazität der RC-Kombination Nummer 15 benennen.
 \\
 Im Folgenden setzt sich die RC-Kombination aus dem Kondensator Nummer 3 und dem Widerstand Nummer 10 zusammen. Weiterhin 
@@ -116,7 +116,7 @@ C_{3,1} = 553.267\, \si{\nano\farad} \nonumber
 \end{align}
 \\
 als Kapazität des Bauteils Nummer 3 zu identifizieren. Da nur eine Messung durchgeführt wurde, können lediglich $R_{10,1}$
-und $C_{3,1}$ angegeben werden, nicht aber Mittelwerte beziehungsweise Fehler der Standartabweichungen.
+und $C_{3,1}$ angegeben werden, nicht aber Mittelwerte mit deren Standardabweichungen.
 
 
 \begin{table}[H]
@@ -196,7 +196,7 @@ L_{18,3} = 46.488\, \si{\milli\henry} \nonumber
 \end{align} 
 \\
 für die Induktivität $L_{18}$ der LR-Kombination liefern. Unter der Zuhilfenahme von Gleichungen
-\ref{eq:2} und \ref{eq:5} lassen sich $R_{18}$ und $L_{18}$ durch ihre Mittelwerte und Fehler der Standartabweichungen
+\ref{eq:2} und \ref{eq:5} lassen sich $R_{18}$ und $L_{18}$ durch ihre Mittelwerte und Standardabweichung
 \begin{align}
 R_{18} = (2142.966 \pm 592.981)\, \si{\ohm} \nonumber \\
 L_{18} = (47.564 \pm 1.076)\, \si{\henry} \nonumber 
@@ -261,7 +261,7 @@ L_{18,3} = 51.000\, \si{\milli\henry} \nonumber
 \\ 
 als Werte für $L_{18}$. Daran geschlossen können die beiden gesuchten Größen unter Verwendung von Gleichung
 \ref{eq:2} und \ref{eq:5}
-über die Mittelwerte der Messungen, sowie den Fehler der Standartabweichung angegeben werden. Folglich ergibt sich
+über die Mittelwerte der Messungen, sowie die Standardabweichungen der Mittelwerte angegeben werden. Folglich ergibt sich
 \begin{align}
 R_{18} = (205.606 \pm 1.220)\, \si{\ohm} \nonumber
 \end{align}
@@ -283,7 +283,7 @@ für die Induktivität $L_{18}$ der LR-Kombination.
         \midrule
         1 & 332 & 208 & 332 & \num{750e-9} \\
         2 & 664 & 102 & 332 & \num{750e-9} \\
-        3 & 1000 & 68 & 32 & \num{750e-9} \\
+        3 & 1000 & 68 & 332 & \num{750e-9} \\
 \bottomrule
 \end{tabular}
 \caption{Aufgenommene Werte zur Bestimmung von $R_{18}$ und $L_{18}$} 
@@ -313,29 +313,30 @@ ergibt sich der Theoriewert
 \nu_{0} = \frac{2380.952\, \si{\hertz}}{2 \cdot \pi} = 378.94\, \si{\hertz} \nonumber
 \end{align}
 für die Kreisfrequenz, bei der die minimale Brückenspannung $U_{Br}$ gemessen werden kann.
-
-In Abbildung \ref{fig:plot} wurden die Messwerte, ebenso wie die mit Gleichung \ref{eq:10}
-berechneten Werte für die Theoriekurve, aufgetragen. Auf der x-Achse ist das Verhältnis $\Omega$ von $\nu$ zu $\nu_{0}$
-logarithmisch aufgetragen, wohingegen die y-Achse das Verhältnis von der Brückenspannung $U_{Br}$ zu der Speisespannung
-$U_{S}$ widergibt.
-Es fällt auf, dass der prozentuale Fehler des gemessenen Wertes für $\nu_{0}$ mit 
+Es fällt auf, dass der prozentuale Fehler des gemessenen Wertes über Gleichung \ref{eq:16} für $\nu_{0}$ mit 
 \begin{align}
-\upDelta_{p} \nu = 0.2789\, \% \nonumber
+\nu_p = 0.2789\, \% \nonumber
 \end{align}
 \\
-gering ausfällt. Weiterhin ist zu beobachten, dass die Messwerte um das Frequenzverhältnis $\Omega = 1$
-herum sehr nah an der Theoriekurve liegen. Allerdings vergrößtert sich die Abweichung von Theoriekurve zu den aufgenommenen
-Messwerten zunächst, je weiter das Frequenzverhältnis von dem Wert eins abweicht. Für Frequenzverhältnisse, die sich dem Wert Null
-annähert, ist zu beobachten, das Theoriekurve und Messwerte nicht weiter auseinanderlaufen. Im Gegensatz dazu lässt sich 
-dieses Verhalten für Frequenzverhältnisse $\Omega > 0$ nicht beobachten.
-
-
-\begin{figure}[h]
+gering ausfällt.
+\begin{figure}[H]
   \centering
   \includegraphics{plot.pdf}
    \caption{Darstellung der aufgenommenen Messwerte und der Theoriekurve}
    \label{fig:plot}
 \end{figure}
+\noindent In Abbildung \ref{fig:plot} wurden die Messwerte, ebenso wie die mit Gleichung \ref{eq:10}
+berechneten Werte für die Theoriekurve, aufgetragen. Auf der x-Achse ist das Verhältnis $\Omega$ von $\nu$ zu $\nu_{0}$
+logarithmisch aufgetragen, wohingegen die y-Achse das Verhältnis von der Brückenspannung $U_{Br}$ zu der Speisespannung
+$U_{S}$ widergibt.
+Es ist zu beobachten, dass die Messwerte um das Frequenzverhältnis $\Omega = 1$
+herum sehr nah an der Theoriekurve liegen. Allerdings vergrößtert sich die Abweichung von Theoriekurve zu den aufgenommenen
+Messwerten zunächst, je weiter das Frequenzverhältnis von dem Wert eins abweicht. Für Frequenzverhältnisse, die sich dem Wert Null
+annähert, ist zu beobachten, das Theoriekurve und Messwerte nicht weiter auseinanderlaufen. Im Gegensatz dazu lässt sich 
+dieses Verhalten für Frequenzverhältnisse $\Omega > 1$ nicht beobachten.
+
+
+
 
 
 \begin{table}[h]
@@ -354,7 +355,7 @@ dieses Verhalten für Frequenzverhältnisse $\Omega > 0$ nicht beobachten.
 \end{table}
 
 
-\begin{table}[h]
+\begin{table}[H]
 \normalsize
 \centering
 \sisetup{table-format=4.0}
@@ -396,13 +397,11 @@ dieses Verhalten für Frequenzverhältnisse $\Omega > 0$ nicht beobachten.
 
 \subsection{Klirrfaktormessung}
 
-Zuletzt soll eine Näherung für den Klirrfaktor $k$ mit Gleichung \ref{eq:11} ermitteln werden, wobei 
-davon ausgegangen werden soll, dass $U_{i} = 0\, \si{\volt}$ mit $i\,>\,2$ gilt.  
-
-\noindent Dafür soll zunächst das Spannungsverhältnis $\lvert{\frac{U_{Br}}{U_S}}\rvert$ für $\Omega = 2$ ermittelt werden. Dieses ergibt sich 
+Zuletzt soll eine Näherung für den Klirrfaktor $k$ mit Gleichung \ref{eq:8} ermitteln werden.
+Dafür soll zunächst das Spannungsverhältnis $\lvert{\frac{U_{Br}}{U_S}}\rvert$ für $\Omega = 2$ ermittelt werden. Dieses ergibt sich 
 durch Verwendung von Gleichung \ref{eq:10} und liefert 
 \begin{align}
-f(2) =  \frac{1}{9} \cdot \frac{(\Omega^2 - 1)^2}{(1 - \Omega^2)^2 + 9 \cdot \Omega^2}  = \frac{\sqrt{5}}{15} = \frac{1}{\sqrt{45}} \nonumber
+f(2) =  \sqrt{\frac{1}{9} \cdot \frac{(\Omega^2 - 1)^2}{(1 - \Omega^2)^2 + 9 \cdot \Omega^2}}  = \frac{\sqrt{5}}{15} = \frac{1}{\sqrt{45}} \nonumber
 \end{align}
 \\
 als Wert. Bevor der Klirrfaktor $k$ nun ermittelt werden kann, müssen zunächst die Amplituden $U_{1}$ und $U_{2}$ berechnet werden.
