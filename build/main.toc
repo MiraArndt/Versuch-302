@@ -4,10 +4,9 @@
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}Wheatstonesche Brücke}{4}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}Kapazitätsmessbrücke}{5}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Induktivitätsmessbrücke}{5}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.3}Induktivitätsmessbrücke}{6}{subsection.2.3}% 
 \contentsline {subsection}{\numberline {2.4}Maxwell-Brücke}{6}{subsection.2.4}% 
 \contentsline {subsection}{\numberline {2.5}Wien-Robinson-Brücke}{7}{subsection.2.5}% 
-\contentsline {subsection}{\numberline {2.6}Fehlerrechnung}{7}{subsection.2.6}% 
 \contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
 \contentsline {subsection}{\numberline {3.1}Wheatstonesche Brücke}{8}{subsection.3.1}% 
 \contentsline {subsection}{\numberline {3.2}Kapazitätsmessbrücke}{8}{subsection.3.2}% 

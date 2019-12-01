@@ -1,12 +1,6 @@
 \section{Theorie}
 \label{sec:Theorie}
-Brückenschaltungen werden in der Messtechnik 
-eingesetzt um die Auflösung einer Messung zu erhöhen
-oder eine pysikalische Größe,
-die sich als elektrischer Widerstand darstellen lässt,
-zu bestimmen. \\
-\\
-Dafür muss eine Abgleichbedingung der
+Zur Vermessung der elektronischen Bauteile muss die Abgleichbedingung der
 Brückenschaltung erfüllt sein. Generell benötigt eine
 Brückenschaltung eine Speisespannung $U_S$, den zu
 ermittelnden elektrischen Widerstand und bekannte
@@ -50,6 +44,33 @@ Speisespannung $U_S$
     R_2R_3=R_1R_4.
     \label{eq:a}
 \end{equation}
+\\
+Ein komplexer Widerstand kann in Real- und Imaginärteil aufgeteilt werden
+\begin{equation}
+    \xi = x+iy.
+\end{equation}
+\\
+Die somit entstandene komplexe Abgleichbedingung
+\begin{equation}
+    \xi_1 \xi_4 = \xi_2 \xi_3
+    \label{eq: komp1}
+\end{equation}
+\\ 
+lässt sich in 
+\begin{equation}
+    x_1 x_4 - y_1 y_4 = x_2 x_3 - y_2 y_3
+    \label{eq:komp2}
+\end{equation}
+\\
+und 
+\begin{equation}
+    x_1 y_4 + x_4 y_1 = x_2 y_3 + x_3 y_2
+    \label{eq:komp3}
+\end{equation}
+\\
+unterteilen.
+
+
 
 
 
@@ -86,7 +107,7 @@ bei einer Kapazität um einen komplexen Widerstand handelt
 muss diese Schaltung mit Wechselstrom betrieben werden
 Der Innenwiderstand des Kondensators wird durch einen
 unbekannten Ohmschen Widerstand $R_x$ ausgedrückt.
-Aus Gleichung \ref{eq:a} ergeben sich die zu ermittelnden
+Aus den Gleichungen \ref{eq:komp2} und \ref{eq:komp3} ergeben sich die zu ermittelnden
 Größen als
 \begin{equation}
     R_X=R_2\frac{R_3}{R_4}
@@ -115,7 +136,7 @@ komplexen Widerstand handelt. Auch hier gibt es einen
 unbekannten ohmschen Widerstand $R_x$ der den
 inneren Widerstand der Spule darstellt. Ähnlich wie
 bei \ref{sec:Kap} lassen sich $R_x$ und $L_x$ mit
-Glechung \ref{eq:a} durch
+Glechungen \ref{eq:komp2} und \ref{eq:komp3} durch
 \begin{equation}
     R_x=R_2\frac{R_3}{R_4}
     \label{eq:6}
@@ -144,7 +165,7 @@ bekannte Kapazität $C_4$. Der Abgleich ist bei
 diesem Aufbau optimal durchführbar, wenn
 die Wirk- und Blindwiderstände die gleiche
 Größenordnung besitzen. $L_x$ und $R_x$ können 
-mit Gleichung \ref{eq:a} durch
+mit den Gleichungen \ref{eq:komp2} und \ref{eq:komp3} durch
 \begin{equation}
     R_x=R_2\frac{R_3}{R_4}
     \label{eq:12}
@@ -154,7 +175,7 @@ mit Gleichung \ref{eq:a} durch
     L_x=R_2R_3C_4
     \label{eq:13}
 \end{equation}
-\noindent berechnen.
+\noindent berechnet werden.
 
 
 
@@ -200,26 +221,3 @@ dies zu
 \noindent wobei $f$ Gleichung \ref{eq:10} entspricht.
 
 
-
-\subsection{Fehlerrechnung}
-Bei der Auswertung werden die Mittelwerte 
-der errechneten Größen durch die Formel
-\begin{equation}
-    \bar{x}=\frac{1}{N}\sum_{i=1}^N x_i
-    \label{eq:2}
-\end{equation}
-berechnet. Die dazugehörige Standardabweichung
-des Mittelwerts berechnet sich durch
-
- \begin{equation}
-     \Delta\bar{x}=\sqrt{\frac{1}{N(N-1)}\sum_{i=1}^N (x_i-\bar{x})}.
-     \label{eq:5}
- \end{equation}
-\noindent Der Prozentuale Fehler $x_p$ eines
-Messwertes $x_M$ zum Theoriewert $x_T$ lässt sich durch
-die Formel
-\begin{equation}
-    x_p=100 \cdot \Bigl(\frac{x_T-x_M}{x_T}\Bigr)
-    \label{eq:16}
-\end{equation}
-\noindent ermitteln.

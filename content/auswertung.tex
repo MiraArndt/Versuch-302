@@ -1,9 +1,24 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+\noindent
+Bei den Rechnnugen fließen keine baubedingten Fehler ein, da diese bei den Messungen
+nicht bekannt gewesen sind. Die Fehlerrechnung beschränkt sich somit lediglich auf die 
+Berechnung der Mittelwerte und die damit verbunden Standartabweichungen der Mittelwerte.
 
-Im Folgenden wurden die baubedingten Fehler sämtlicher Bauteile vernachlässigt und 
-treten somit auch nicht in den Fehlerrechnungen auf. Diese beschränken sich lediglich auf 
-die Berechnung der Mittelwerte, sowie die damit verbundenen Fehler der Standartabweichungen.
+\noindent
+Im Folgenden werden die Mittelwerte 
+der errechneten Größen durch die Formel
+\begin{equation}
+    \bar{x}=\frac{1}{N}\sum_{i=1}^N x_i
+    \label{eq:2}
+\end{equation}
+berechnet. Die dazugehörige Standardabweichung
+des Mittelwerts berechnet sich durch
+
+ \begin{equation}
+     \Delta\bar{x}=\sqrt{\frac{1}{N(N-1)}\sum_{i=1}^N (x_i-\bar{x})}.
+     \label{eq:5}
+ \end{equation}
 
 
 \subsection{Wheatstonesche Brücke}
@@ -199,7 +214,7 @@ für die Induktivität $L_{18}$ der LR-Kombination liefern. Unter der Zuhilfenah
 \ref{eq:2} und \ref{eq:5} lassen sich $R_{18}$ und $L_{18}$ durch ihre Mittelwerte und Standardabweichung
 \begin{align}
 R_{18} = (2142.966 \pm 592.981)\, \si{\ohm} \nonumber \\
-L_{18} = (47.564 \pm 1.076)\, \si{\henry} \nonumber 
+L_{18} = (47.564 \pm 1.076)\, \si{\milli\henry} \nonumber 
 \end{align}
 \\ 
 angeben.
@@ -313,6 +328,17 @@ ergibt sich der Theoriewert
 \nu_{0} = \frac{2380.952\, \si{\hertz}}{2 \cdot \pi} = 378.94\, \si{\hertz} \nonumber
 \end{align}
 für die Kreisfrequenz, bei der die minimale Brückenspannung $U_{Br}$ gemessen werden kann.
+
+\noindent Der prozentuale Fehler $x_p$ eines
+Messwertes $x_M$ zum Theoriewert $x_T$ lässt sich durch
+die Formel
+\begin{equation}
+    x_p=100 \cdot \Bigl(\frac{x_T-x_M}{x_T}\Bigr)
+    \label{eq:16}
+\end{equation}
+\noindent ermitteln.
+
+\noindent
 Es fällt auf, dass der prozentuale Fehler des gemessenen Wertes über Gleichung \ref{eq:16} für $\nu_{0}$ mit 
 \begin{align}
 \nu_p = 0.2789\, \% \nonumber
