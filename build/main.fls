@@ -1,4 +1,4 @@
-PWD /mnt/c/Users/nicos/Desktop/V_302/Versuch-302
+PWD /mnt/c/Users/nicos/Desktop/Praktikum/V_302/Versuch-302
 INPUT /home/nico/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT build/main.log

@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber build/main"] 1575021419 "build/main.bcf" "build/main.bbl" "build/main" 1575021830
-  "build/main.bcf" 1575021830 100103 f4e584c4fb8738f619b57e146cd2946f "lualatex"
+["biber build/main"] 1575636069 "build/main.bcf" "build/main.bbl" "build/main" 1575636134
+  "build/main.bcf" 1575636133 100103 f4e584c4fb8738f619b57e146cd2946f "lualatex"
   "lit.bib" 1574434268 98 7d76c7286a0f2f4b04fd9014bfcff24b ""
   "programme.bib" 1574434268 822 d3f82d6429bea02c12c19652ca429715 ""
   (generated)
-  "build/main.bbl"
   "build/main.blg"
-["lualatex"] 1575021820 "main.tex" "build/main.pdf" "main" 1575021830
+  "build/main.bbl"
+["lualatex"] 1575636124 "main.tex" "build/main.pdf" "main" 1575636134
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -193,10 +193,10 @@
   "/home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-regular.luc" 1572009925 411895 944ffbe15b743bbd63420289d9ac2815 ""
   "/home/nico/.local/texlive/2019/texmf-var/tex/generic/config/language.dat" 1569076336 6580 a47954f6961193c0a8592adef65b66ea ""
   "/home/nico/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt" 1569076484 1382712 235924b853a88370b475edecb8748d06 ""
-  "build/main.aux" 1575021830 18039 53e0b31a53a2c3359cda0f969db8db9b "lualatex"
-  "build/main.bbl" 1575021421 5237 fafc51292491e06a67d95638b9c183e7 "biber build/main"
-  "build/main.run.xml" 1575021830 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "build/main.toc" 1575021830 2049 76eaef116cc5ea7ed201ea6bc5e0aaac "lualatex"
+  "build/main.aux" 1575636133 18039 53e0b31a53a2c3359cda0f969db8db9b "lualatex"
+  "build/main.bbl" 1575636071 5237 fafc51292491e06a67d95638b9c183e7 "biber build/main"
+  "build/main.run.xml" 1575636133 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "build/main.toc" 1575636133 2049 76eaef116cc5ea7ed201ea6bc5e0aaac "lualatex"
   "content/Allgemein.png" 1574442864 18514 94a890e76f523b7446956fcb8d26db9f ""
   "content/Anhang.tex" 1574930092 197 cd339277bc650d95937e353fb0f7692e ""
   "content/Induktivität.png" 1574660105 32552 7a4eca2f39124fe287d5c0f6d02760ab ""
@@ -213,11 +213,11 @@
   "content/theorie.tex" 1575021596 6546 471f187c0f4375675bea81808f6bc9d3 ""
   "header.tex" 1574930092 3633 5a37182318b925cc8be60c3c2bf269e3 ""
   "main.tex" 1574930092 459 6bc4711fb58cf3157602dee5aecaee1f ""
-  "plot.pdf" 1575021820 11180 1127e0cb2ad8ba44af104364f73e80a1 ""
+  "plot.pdf" 1575636123 11180 a6ca77236494ee10f9738a22768da394 ""
   (generated)
   "build/main.bcf"
-  "build/main.run.xml"
-  "build/main.pdf"
-  "build/main.toc"
   "build/main.aux"
+  "build/main.toc"
+  "build/main.run.xml"
   "build/main.log"
+  "build/main.pdf"
